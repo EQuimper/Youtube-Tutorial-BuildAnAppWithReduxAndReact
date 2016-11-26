@@ -24,12 +24,4 @@ const store = createStore(
 
 export const history = syncHistoryWithStore(browserHistory, store);
 
-// Make the hot reload work with Redux
-if (module.hot) {
-  module.hot.accept('./reducers', () => {
-    const nextRootReducer = rootReducer;
-    store.replaceReducer(nextRootReducer);
-  });
-}
-
 export { store };
