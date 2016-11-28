@@ -35,3 +35,10 @@
 6. Api call with axios
 
   - Setup the global axios configure
+
+
+## Features
+
+- Auth system with JWT
+- User can crud a todo
+- User can crud a list of todo
