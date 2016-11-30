@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeView = () => (
   <div>
-    <h1>I'm the homeview</h1>
+    <h1>This is an awesome app in progress here!!!</h1>
   </div>
 );
 
